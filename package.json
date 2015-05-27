@@ -2,6 +2,7 @@
   "name": "latest-news",
   "version": "0.0.2",
   "description": "A simple command-line tool, built on top of Feedparser, that prints the latest news from selected sources right in your terminal.",
+  "keywords": ["news", "rss", "command-line", "terminal"],
   "main": "index.js",
   "bin": {
     "latest": "./index.js"
