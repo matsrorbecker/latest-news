@@ -1,0 +1,19 @@
+{
+  "name": "latest-news",
+  "version": "0.0.1",
+  "description": "A simple command-line tool, built on top of FeedParser,
+    that prints the latest news from selected sources right in your terminal.",
+  "main": "index.js",
+  "bin": {
+    "latest": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mats Rörbecker",
+  "license": "ISC",
+  "dependencies": {
+    "feedparser": "^1.1.0",
+    "request": "^2.55.0"
+  }
+}
