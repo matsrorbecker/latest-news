@@ -88,7 +88,7 @@ var cleanText = function(text) {
     'quot': '”',
     'amp': '&'  
   };
-  text = text.replace(/&(npsp|quot|amp);/g, function(_, charEntity) {
+  text = text.replace(/&(nbsp|quot|amp);/g, function(_, charEntity) {
     return replacementChars[charEntity];
   });
   return text.replace(/(<([^>]+)>)/ig, '');  
