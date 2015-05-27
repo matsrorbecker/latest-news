@@ -17,3 +17,7 @@ To run the script, type in a command of the form *latest [maxArticles] [countryC
 
     latest 10 se
     
+License
+-------
+
+This little piece of software is licensed under the terms of the [ISC License](http://en.wikipedia.org/wiki/ISC_license).
